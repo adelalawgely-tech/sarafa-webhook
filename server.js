@@ -11,7 +11,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const INSTANCE = process.env.ULTRAMSG_INSTANCE || "instance173867";
 const TOKEN = process.env.ULTRAMSG_TOKEN || "qb421oyq9xsx9okt";
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
+
 
 const GROUP_MAP = {};
 const DB = { rooms: {}, log: [], failed: [] };
